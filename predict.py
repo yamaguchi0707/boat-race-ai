@@ -1,3 +1,5 @@
+from data import get_race_data
+
 def calculate_score(player):
 
     score = 50
@@ -16,39 +18,43 @@ def calculate_score(player):
 
         score += 5
 
-    # 1着率評価
+    # 勝率評価
 
     score += player.get("win_rate", 0) * 0.3
 
-    # ST評価（早いほど加点）
+    # 2連率評価
 
-    if player.get("st", 0) <= 0.15:
+    score += player.get("second_rate", 0) * 0.15
+
+    # 3連率評価
+
+    score += player.get("third_rate", 0) * 0.1
+
+    # ST評価
+
+    st = player.get("st", 0)
+
+    if st > 0 and st <= 0.15:
 
         score += 10
+
+    elif st <= 0.18:
+
+        score += 5
+
+    # モーター評価
+
+    score += player.get("motor_rate", 0) * 0.2
 
     return score
 
 def make_prediction():
 
-    players = [
-
-        {"boat":1, "rank":"A1", "win_rate":60, "st":0.12},
-
-        {"boat":2, "rank":"A2", "win_rate":45, "st":0.15},
-
-        {"boat":3, "rank":"B1", "win_rate":35, "st":0.18},
-
-        {"boat":4, "rank":"A2", "win_rate":42, "st":0.14},
-
-        {"boat":5, "rank":"B1", "win_rate":30, "st":0.19},
-
-        {"boat":6, "rank":"B1", "win_rate":25, "st":0.20}
-
-    ]
+    race = get_race_data()
 
     results = []
 
-    for player in players:
+    for player in race["players"]:
 
         score = calculate_score(player)
 
@@ -56,7 +62,9 @@ def make_prediction():
 
             "boat": player["boat"],
 
-            "score": score
+            "name": player["name"],
+
+            "score": round(score, 1)
 
         })
 
@@ -70,12 +78,14 @@ def make_prediction():
 
     return {
 
+        "venue": race["venue"],
+
         "順位評価": results,
 
-        "本命": "1-2-3",
+        "本命": f"{results[0]['boat']}-{results[1]['boat']}-{results[2]['boat']}",
 
-        "中穴": "1-4-2",
+        "中穴": f"{results[0]['boat']}-{results[2]['boat']}-{results[1]['boat']}",
 
-        "穴": "4-1-5"
+        "穴": f"{results[3]['boat']}-{results[0]['boat']}-{results[1]['boat']}"
 
     }
