@@ -1,0 +1,107 @@
+{
+
+    "venue": "大村",
+
+    "update_time": "2026-07-24",
+
+    "races": [
+
+        {
+
+            "race_number": 1,
+
+            "players": []
+
+        },
+
+        {
+
+            "race_number": 2,
+
+            "players": []
+
+        },
+
+        {
+
+            "race_number": 3,
+
+            "players": []
+
+        },
+
+        {
+
+            "race_number": 4,
+
+            "players": []
+
+        },
+
+        {
+
+            "race_number": 5,
+
+            "players": []
+
+        },
+
+        {
+
+            "race_number": 6,
+
+            "players": []
+
+        },
+
+        {
+
+            "race_number": 7,
+
+            "players": []
+
+        },
+
+        {
+
+            "race_number": 8,
+
+            "players": []
+
+        },
+
+        {
+
+            "race_number": 9,
+
+            "players": []
+
+        },
+
+        {
+
+            "race_number": 10,
+
+            "players": []
+
+        },
+
+        {
+
+            "race_number": 11,
+
+            "players": []
+
+        },
+
+        {
+
+            "race_number": 12,
+
+            "players": []
+
+        }
+
+    ]
+
+}
