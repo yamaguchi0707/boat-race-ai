@@ -1,0 +1,73 @@
+{
+
+  "大村": {
+
+    "water_type": "海水",
+
+    "escape_bonus": 12,
+
+    "inside_bonus": 10,
+
+    "dash_bonus": 2,
+
+    "description": "インが非常に強い"
+
+  },
+
+  "徳山": {
+
+    "water_type": "海水",
+
+    "escape_bonus": 10,
+
+    "inside_bonus": 8,
+
+    "dash_bonus": 3,
+
+    "description": "イン優勢"
+
+  },
+
+  "鳴門": {
+
+    "water_type": "海水",
+
+    "escape_bonus": 3,
+
+    "inside_bonus": 2,
+
+    "dash_bonus": 8,
+
+    "description": "差し・まくりが決まりやすい"
+
+  },
+
+  "福岡": {
+
+    "water_type": "汽水",
+
+    "escape_bonus": 2,
+
+    "inside_bonus": 2,
+
+    "dash_bonus": 10,
+
+    "description": "3コースまくりが強い"
+
+  },
+
+  "住之江": {
+
+    "water_type": "淡水",
+
+    "escape_bonus": 9,
+
+    "inside_bonus": 8,
+
+    "dash_bonus": 3,
+
+    "description": "実力勝負"
+
+  }
+
+}
