@@ -1,0 +1,167 @@
+{
+
+  "venue": "大村",
+
+  "race_number": 1,
+
+  "weather": {
+
+    "condition": "晴",
+
+    "temperature": 32,
+
+    "wind_direction": "",
+
+    "wind_speed": 2,
+
+    "wave_height": 1
+
+  },
+
+  "water": {
+
+    "type": "海水",
+
+    "tide": "若潮",
+
+    "water_temperature": 32
+
+  },
+
+  "players": [
+
+    {
+
+      "boat": 1,
+
+      "number": 4623,
+
+      "name": "中北将史",
+
+      "rank": "B1",
+
+      "national_win_rate": 5.5,
+
+      "national_second_rate": 60.0,
+
+      "average_st": 0.13,
+
+      "motor_second_rate": 34.0,
+
+      "exhibition_time": 6.90
+
+    },
+
+    {
+
+      "boat": 2,
+
+      "number": 5333,
+
+      "name": "山下智己",
+
+      "rank": "B2",
+
+      "national_win_rate": 3.0,
+
+      "national_second_rate": 11.1,
+
+      "average_st": 0.18,
+
+      "motor_second_rate": 43.8,
+
+      "exhibition_time": 6.89
+
+    },
+
+    {
+
+      "boat": 3,
+
+      "number": 4329,
+
+      "name": "小松卓司",
+
+      "rank": "B1",
+
+      "national_win_rate": 4.5,
+
+      "national_second_rate": 16.7,
+
+      "average_st": 0.17,
+
+      "motor_second_rate": 39.4,
+
+      "exhibition_time": 6.96
+
+    },
+
+    {
+
+      "boat": 4,
+
+      "number": 4898,
+
+      "name": "菊地敬介",
+
+      "rank": "B1",
+
+      "national_win_rate": 5.0,
+
+      "national_second_rate": 18.2,
+
+      "average_st": 0.15,
+
+      "motor_second_rate": 37.8,
+
+      "exhibition_time": 6.97
+
+    },
+
+    {
+
+      "boat": 5,
+
+      "number": 5261,
+
+      "name": "岡暢祐",
+
+      "rank": "B1",
+
+      "national_win_rate": 3.5,
+
+      "national_second_rate": 14.3,
+
+      "average_st": 0.16,
+
+      "motor_second_rate": 38.4,
+
+      "exhibition_time": 6.94
+
+    },
+
+    {
+
+      "boat": 6,
+
+      "number": 5102,
+
+      "name": "原田雄次",
+
+      "rank": "B1",
+
+      "national_win_rate": 3.0,
+
+      "national_second_rate": 0.0,
+
+      "average_st": 0.20,
+
+      "motor_second_rate": 22.0,
+
+      "exhibition_time": 6.94
+
+    }
+
+  ]
+
+}
