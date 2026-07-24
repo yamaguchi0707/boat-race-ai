@@ -1,0 +1,89 @@
+{
+
+  "venue": "大村",
+
+  "race_number": 1,
+
+  "weather": {
+
+    "condition": "晴",
+
+    "temperature": 32,
+
+    "wind_speed": 2,
+
+    "wave_height": 1
+
+  },
+
+  "water": {
+
+    "type": "海水"
+
+  },
+
+  "players": [
+
+    {
+
+      "boat":1,
+
+      "name":"中北将史",
+
+      "rank":"B1"
+
+    },
+
+    {
+
+      "boat":2,
+
+      "name":"山下智己",
+
+      "rank":"B2"
+
+    },
+
+    {
+
+      "boat":3,
+
+      "name":"小松卓司",
+
+      "rank":"B1"
+
+    },
+
+    {
+
+      "boat":4,
+
+      "name":"菊地敬介",
+
+      "rank":"B1"
+
+    },
+
+    {
+
+      "boat":5,
+
+      "name":"岡暢祐",
+
+      "rank":"B1"
+
+    },
+
+    {
+
+      "boat":6,
+
+      "name":"原田雄次",
+
+      "rank":"B1"
+
+    }
+
+  ]
+
+}
